@@ -10,7 +10,6 @@
 		BC409E6126CE9A2F00D842B1 /* SwiftUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC409E6026CE9A2F00D842B1 /* SwiftUIDemoApp.swift */; };
 		BC409E6326CE9A2F00D842B1 /* DiffExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC409E6226CE9A2F00D842B1 /* DiffExampleView.swift */; };
 		BC409E6526CE9A3000D842B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC409E6426CE9A3000D842B1 /* Assets.xcassets */; };
-		BC409E6826CE9A3000D842B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC409E6726CE9A3000D842B1 /* Preview Assets.xcassets */; };
 		BC5765E526D24A0500A1EF86 /* TimerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5765E426D24A0500A1EF86 /* TimerExampleView.swift */; };
 		BC5765FC26D25E5100A1EF86 /* PickerViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5765F526D25E5100A1EF86 /* PickerViewExample.swift */; };
 		BC5765FD26D25E5100A1EF86 /* PlayerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5765F626D25E5100A1EF86 /* PlayerList.swift */; };
@@ -27,7 +26,6 @@
 		BC409E6026CE9A2F00D842B1 /* SwiftUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemoApp.swift; sourceTree = "<group>"; };
 		BC409E6226CE9A2F00D842B1 /* DiffExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffExampleView.swift; sourceTree = "<group>"; };
 		BC409E6426CE9A3000D842B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BC409E6726CE9A3000D842B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BC409E6926CE9A3000D842B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC5765E426D24A0500A1EF86 /* TimerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerExampleView.swift; sourceTree = "<group>"; };
 		BC5765F526D25E5100A1EF86 /* PickerViewExample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewExample.swift; sourceTree = "<group>"; };
@@ -76,17 +74,8 @@
 				BC57660626D25EE600A1EF86 /* Views */,
 				BC409E6426CE9A3000D842B1 /* Assets.xcassets */,
 				BC409E6926CE9A3000D842B1 /* Info.plist */,
-				BC409E6626CE9A3000D842B1 /* Preview Content */,
 			);
 			path = SwiftUIDemo;
-			sourceTree = "<group>";
-		};
-		BC409E6626CE9A3000D842B1 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				BC409E6726CE9A3000D842B1 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		BC5765F426D25E5100A1EF86 /* Model */ = {
@@ -177,7 +166,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC409E6826CE9A3000D842B1 /* Preview Assets.xcassets in Resources */,
 				BC409E6526CE9A3000D842B1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
