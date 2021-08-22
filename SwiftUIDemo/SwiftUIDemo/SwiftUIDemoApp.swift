@@ -1,14 +1,14 @@
 //
-//  FirstSwiftUIApp.swift
-//  FirstSwiftUI
+//  SwiftUIDemoApp.swift
+//  SwiftUIDemo
 //
-//  Created by ankit ios on 11/07/21.
+//  Created by ankit ios on 19/08/21.
 //
 
 import SwiftUI
 
 @main
-struct FirstSwiftUIApp: App {
+struct SwiftUIDemoApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
