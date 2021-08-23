@@ -10,11 +10,9 @@ import SwiftUI
 struct PlayerList: View {
     var players : [Player] = []
     var body: some View {
-        NavigationView(content: {
-            List(players){ player in
-                PlayerCell.init(player: player)
-            }.navigationBarTitle("ATC Players")
-        })
+        List(players){ player in
+            PlayerCell.init(player: player)
+        }.navigationBarTitle("ATC Players")
     }
 }
 

@@ -31,18 +31,25 @@ struct ContentView: View {
                     Text("Player List")
                 }
 
-                Divider()
-                NavigationLink(
-                    destination:  NormalTextField()){
-                    Text("Login Screen Example")
-                }
+                
                 VStack{
+                    Divider()
+                    NavigationLink(
+                        destination:  NormalTextField()){
+                        Text("Login Screen Example")
+                    }
                     Divider()
                     NavigationLink(
                         destination:  TabViewExample()){
                         Text("Tab View Example")
                     }
+                    Divider()
+                    NavigationLink(
+                        destination:  PreferenceExampleView()){
+                        Text("Preference Exmaple")
+                    }
                 }
+                Spacer()
             }
         }
         

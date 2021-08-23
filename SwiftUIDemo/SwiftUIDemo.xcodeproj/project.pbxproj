@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		498F8E7226D338E70063E891 /* PreferenceExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498F8E7126D338E60063E891 /* PreferenceExampleView.swift */; };
 		BC409E6126CE9A2F00D842B1 /* SwiftUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC409E6026CE9A2F00D842B1 /* SwiftUIDemoApp.swift */; };
 		BC409E6326CE9A2F00D842B1 /* DiffExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC409E6226CE9A2F00D842B1 /* DiffExampleView.swift */; };
 		BC409E6526CE9A3000D842B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC409E6426CE9A3000D842B1 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		498F8E7126D338E60063E891 /* PreferenceExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceExampleView.swift; sourceTree = "<group>"; };
 		BC409E5D26CE9A2F00D842B1 /* SwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC409E6026CE9A2F00D842B1 /* SwiftUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemoApp.swift; sourceTree = "<group>"; };
 		BC409E6226CE9A2F00D842B1 /* DiffExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffExampleView.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				BC409E6226CE9A2F00D842B1 /* DiffExampleView.swift */,
 				BC5765E426D24A0500A1EF86 /* TimerExampleView.swift */,
 				BC57660726D2601D00A1EF86 /* ContentView.swift */,
+				498F8E7126D338E60063E891 /* PreferenceExampleView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				BC57660826D2601D00A1EF86 /* ContentView.swift in Sources */,
 				BC5765FD26D25E5100A1EF86 /* PlayerList.swift in Sources */,
 				BC409E6326CE9A2F00D842B1 /* DiffExampleView.swift in Sources */,
+				498F8E7226D338E70063E891 /* PreferenceExampleView.swift in Sources */,
 				BC409E6126CE9A2F00D842B1 /* SwiftUIDemoApp.swift in Sources */,
 				BC57660026D25E5100A1EF86 /* PlayerDetail.swift in Sources */,
 				BC5765FE26D25E5100A1EF86 /* NormalTextField.swift in Sources */,
@@ -316,7 +320,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIDemo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIDemo\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUIDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -337,7 +341,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIDemo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIDemo\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUIDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
